@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const HeaderContainer = styled.header `
-    position: absolute;
+    position: relative;
     overflow: hidden;
     padding: 0 0.5rem;
     width: 100%;
@@ -24,18 +24,32 @@ export const HeaderContainer = styled.header `
 
     }
 
-    li {
+    li { 
+        position: relative;
         list-style: none;
         font-weight: 500;
         padding-right: 3rem;
         font-family: 'Poppins', sans-serif;
         font-weight: 500;
+
+        a {
+            text-decoration: none;
+            transition: 0.2s;
+            cursor: pointer;
+
+            &:hover {
+                text-shadow: 3px 3px 10px rgba(255, 255,255,0.7);
+            }
+        }
+
+        
     }
 
     button {
         display: none;
         border: none;
         background: transparent;
+
         img {
             width: 100%;
         }
@@ -54,10 +68,3 @@ export const HeaderContainer = styled.header `
         }
     }
 `;
-
-// export const Container = styled.section `
-//     width: 100%;
-//     height: 100vh;
-//     background: #333 url(${HeaderImg}) no-repeat;
-//     background-size: 100% 100%;
-// `;

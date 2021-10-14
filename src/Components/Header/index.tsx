@@ -9,13 +9,22 @@ export function Header(){
             <HeaderContainer>
                 <img src={logoImg} alt="logo"/>
                 <ul>
-                    <li>Informações Pessoais</li>
-                    <li>Acontecimentos</li>
-                    <li>Opiniões</li>
+                    <li>
+                        <a href="#">Informações Pessoais</a>
+                    </li>
+                    <li>
+                        <a href="#">Acontecimentos</a>
+                    </li>
+                    <li>
+                        <a href="#">Opiniões</a>
+                    </li>
                 </ul>
+
                 <button type="button">
                     <img src={menuImg} alt="Icone Menu" className="icon-menu"/>
                 </button>
+
+                
             </HeaderContainer>
         </>
         

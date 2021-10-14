@@ -13,12 +13,12 @@ export const HomeStyle = styled.div `
         flex-direction: column;
         align-items: left;
 
+        padding: 1rem 4rem;
+
         h1 {
             font-size: 4.5rem;
             font-family: 'Monteserrat', sans-serif;
-            padding: 0 4rem;
             
-
             background-image: linear-gradient(to bottom, #2682cf, #2682cf, #2682cf, #2682cf, #a57de6, #7a4bc8);
             background-clip: text;
             -webkit-background-clip: text;
@@ -29,15 +29,17 @@ export const HomeStyle = styled.div `
             font-size: 1.2rem;
             font-family: 'Poppins', sans-serif;
             font-weight: 300;
-
-            padding: 1rem 4rem;
-            margin-bottom: 10rem;
+            margin-bottom: 1.5rem;
+            margin-top: 0.5rem;
 
             text-shadow: 2px 2px 5px rgba(255,255,255,0.5);
         }
         
-        img {
+        img.bg {
             position: absolute;
+            top: 0;
+            left: 0;
+
             width: 100%;
             height: 100vh;
 
@@ -46,9 +48,23 @@ export const HomeStyle = styled.div `
         }
 
         Button {
-            margin-left: 3.5rem;
-            margin-bottom: 6rem;
-            margin-top: -8rem;
+            /* margin-left: 3.5rem; */
+            margin-bottom: 14rem;
+            transition: 0.5s;
+
+            &:hover {
+                background-color: #7a4bc8;
+            }
+        }
+
+        a.linkButton {
+            width: 5rem;
+            height: 4rem;
+
+            margin: 0 auto;
+
+            position: relative;
+            top: 0;
         }
         
     }

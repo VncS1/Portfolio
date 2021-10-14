@@ -1,4 +1,6 @@
 import headerImg from '../../assets/bg_tst1.png';
+import downImg from '../../assets/Setas.png';
+
 import { HomeStyle } from './home';
 import { Button } from '../Button';
 
@@ -16,8 +18,15 @@ export function Home(){
                     do Campus de Poços de Caldas.
                 </p>
                 <Button />
-                <img src={headerImg} alt="Background" />
+
+                <img src={headerImg} alt="Background" className="bg" />
+
+                <a href="#" className="linkButton">
+                    <img src={downImg} alt="Setas Baixo"/>
+                </a>
+
             </div>
+            
        </HomeStyle>
     );
 }
