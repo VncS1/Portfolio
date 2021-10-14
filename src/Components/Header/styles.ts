@@ -9,7 +9,7 @@ export const HeaderContainer = styled.header `
     display: flex;
 
     img {
-        width: 4.5rem;
+        width: 4.7rem;
         padding: 0;
     }
 
@@ -31,6 +31,7 @@ export const HeaderContainer = styled.header `
         padding-right: 3rem;
         font-family: 'Poppins', sans-serif;
         font-weight: 500;
+        font-size: 1.15rem;
 
         a {
             text-decoration: none;

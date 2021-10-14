@@ -16,7 +16,7 @@ export const HomeStyle = styled.div `
         padding: 1rem 4rem;
 
         h1 {
-            font-size: 4.5rem;
+            font-size: 5rem;
             font-family: 'Monteserrat', sans-serif;
             
             background-image: linear-gradient(to bottom, #2682cf, #2682cf, #2682cf, #2682cf, #a57de6, #7a4bc8);
@@ -26,7 +26,7 @@ export const HomeStyle = styled.div `
         }
 
         p {
-            font-size: 1.2rem;
+            font-size: 1.3rem;
             font-family: 'Poppins', sans-serif;
             font-weight: 300;
             margin-bottom: 1.5rem;
