@@ -10,13 +10,13 @@ export function Header(){
                 <img src={logoImg} alt="logo"/>
                 <ul>
                     <li>
-                        <a href="#">Informações Pessoais</a>
+                        <a href="https://https://portfolio-vinicius.vercel.app/">Informações Pessoais</a>
                     </li>
                     <li>
-                        <a href="#">Acontecimentos</a>
+                        <a href="https://https://portfolio-vinicius.vercel.app/">Acontecimentos</a>
                     </li>
                     <li>
-                        <a href="#">Opiniões</a>
+                        <a href="https://https://portfolio-vinicius.vercel.app/">Opiniões</a>
                     </li>
                 </ul>
 
