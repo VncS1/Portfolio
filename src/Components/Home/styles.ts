@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const HomeStyle = styled.div `
+export const TopHomeStyle = styled.div `
     width: 100%;
     height: 100vh;
     overflow-x: hidden;
@@ -29,8 +29,7 @@ export const HomeStyle = styled.div `
             font-size: 1.3rem;
             font-family: 'Poppins', sans-serif;
             font-weight: 300;
-            margin-bottom: 1.5rem;
-            margin-top: 0.5rem;
+            margin-bottom: 1rem;
 
             text-shadow: 2px 2px 5px rgba(255,255,255,0.5);
         }
@@ -64,7 +63,14 @@ export const HomeStyle = styled.div `
             margin: 0 auto;
 
             position: relative;
-            top: 0;
+            
+            @media(max-width:768px){
+                top: -3.5rem;
+            }
+
+            @media(min-width: 769px) and (max-width: 1024px){
+                top: 0.5rem;
+            }
         }
         
     }

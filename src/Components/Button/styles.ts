@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 
 export const ButtonStyle = styled.button`
-        width: 21rem;
-        height: 4rem;
+        width: 20rem;
+        height: 3.25rem;
 
         border: 2px solid #7a4bc8;
         border-radius: 2rem;
         background-color: transparent;
-        padding: 0.5rem 3rem;
+        padding: 0 3rem;
 
 
         font-family: 'Poppins', sans-serif;
