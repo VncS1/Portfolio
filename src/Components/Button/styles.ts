@@ -7,7 +7,7 @@ export const ButtonStyle = styled.button`
         border: 2px solid #7a4bc8;
         border-radius: 2rem;
         background-color: transparent;
-        padding: 0 3rem;
+        padding: 0.5rem 3rem;
 
 
         font-family: 'Poppins', sans-serif;
