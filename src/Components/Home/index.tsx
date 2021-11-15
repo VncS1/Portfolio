@@ -28,7 +28,7 @@ export function Home(){
                         </a>
                     </div>
             </TopHomeStyle>
-            <Biografia />
+            <Biografia/>
        </>
        
     );

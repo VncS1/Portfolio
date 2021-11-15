@@ -14,5 +14,10 @@ export const ButtonStyle = styled.button`
         font-weight: 200;
         font-size: 1.4rem;
 
+        transition: 0.5s;
+
+        &:hover {
+            background-color: #7a4bc8;
+        }
 `;
 

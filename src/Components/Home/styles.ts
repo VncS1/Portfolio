@@ -49,11 +49,6 @@ export const TopHomeStyle = styled.div `
         Button {
             /* margin-left: 3.5rem; */
             margin-bottom: 14rem;
-            transition: 0.5s;
-
-            &:hover {
-                background-color: #7a4bc8;
-            }
         }
 
         a.linkButton {
