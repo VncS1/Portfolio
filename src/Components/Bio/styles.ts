@@ -10,7 +10,8 @@ export const BioStyle = styled.div `
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 3rem;
 
     padding: 4rem;
 
@@ -54,7 +55,7 @@ export const BioStyle = styled.div `
     }
 
     @media(max-width: 1000px){
-        height: 230vh;
+        height: 150vh;
 
         flex-direction: column;
         justify-content: left;
@@ -62,13 +63,13 @@ export const BioStyle = styled.div `
 
         .img-box {
             width: 90%;
-            height: 40%;
+            height: 65%;
         }
 
         .text-left {
             padding: 1rem;
-            gap: 1rem;
             width: 90%;
+            height: auto;
         }
 
         p {

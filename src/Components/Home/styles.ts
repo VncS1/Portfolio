@@ -6,6 +6,7 @@ export const TopHomeStyle = styled.div `
     overflow: hidden;
 
     div.left-text {
+        position: relative;
         height: 95vh;
 
         display: flex;
@@ -14,6 +15,8 @@ export const TopHomeStyle = styled.div `
         align-items: left;
 
         padding: 1rem 4rem;
+
+        z-index: 2;
 
         h1 {
             font-size: 5rem;
@@ -30,6 +33,8 @@ export const TopHomeStyle = styled.div `
             font-family: 'Poppins', sans-serif;
             font-weight: 300;
             margin-bottom: 1rem;
+
+            color: #eee;
 
             text-shadow: 2px 2px 5px rgba(255,255,255,0.5);
         }
@@ -68,6 +73,7 @@ export const TopHomeStyle = styled.div `
             height: 110vh;
 
             object-fit: cover;
-            z-index: -1;
+            z-index: 0;
+            
     }
 `;
