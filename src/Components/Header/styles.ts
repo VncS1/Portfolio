@@ -8,6 +8,8 @@ export const HeaderContainer = styled.header `
 
     display: flex;
 
+    z-index: 2;
+
     img {
         width: 4.7rem;
         padding: 0;
