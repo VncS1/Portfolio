@@ -2,10 +2,10 @@ import styled from 'styled-components';
 
 
 export const BioStyle = styled.div `
-    background-color: #eee;
+    background-color: #555;
 
     width: 100%;
-    height: 140vh;
+    height: 120vh;
 
     display: flex;
     flex-direction: row;
@@ -24,7 +24,7 @@ export const BioStyle = styled.div `
         height: 80%;
         background-color: #333;
 
-        box-shadow: 0 0 25px rgba(0,0,0,0.2);
+        box-shadow: 0 0 25px rgba(0,0,0,0.4);
         transition: all 0.5s;
 
         &:hover {
@@ -33,12 +33,13 @@ export const BioStyle = styled.div `
     }
 
     .text-left {
-        width: 50%;
+        width: 30%;
         height: 50%;
 
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: 1fr 1fr 3fr 1fr;
+        grid: 1rem;
 
         p {
             font-size: 17px;
@@ -54,20 +55,26 @@ export const BioStyle = styled.div `
     }
 
     @media(max-width: 1000px){
-        height: 150vh;
+        height: 230vh;
 
         flex-direction: column;
         justify-content: left;
         
 
         .img-box {
-            width: 80%
+            width: 115%;
+            height: 40%;
         }
 
         .text-left {
             padding: 1rem;
             gap: 1rem;
-            width: 70%;
+            width: 85%;
+        }
+
+        p {
+            font-size: 16px;
+            padding-bottom: 1rem;
         }
 
         button {

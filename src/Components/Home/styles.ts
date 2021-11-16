@@ -6,7 +6,7 @@ export const TopHomeStyle = styled.div `
     overflow-x: hidden;
 
     div.left-text {
-        height: 100vh;
+        height: 95vh;
 
         display: flex;
         justify-content: center;
@@ -40,15 +40,14 @@ export const TopHomeStyle = styled.div `
             left: 0;
 
             width: 100%;
-            height: 100vh;
+            height: 110%;
 
             object-fit: cover;
             z-index: -1;
         }
 
-        Button {
-            /* margin-left: 3.5rem; */
-            margin-bottom: 14rem;
+        a.linkButton {
+            padding-top: 9rem;
         }
 
         a.linkButton {
@@ -60,11 +59,11 @@ export const TopHomeStyle = styled.div `
             position: relative;
             
             @media(max-width:768px){
-                top: -3.5rem;
+                top: -4.5rem;
             }
 
             @media(min-width: 769px) and (max-width: 1024px){
-                top: 0.5rem;
+                top: -2.5rem;
             }
         }
         
