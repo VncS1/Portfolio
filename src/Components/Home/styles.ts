@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const TopHomeStyle = styled.div `
     width: 100%;
     height: 100vh;
-    overflow-x: hidden;
+    overflow: hidden;
 
     div.left-text {
         height: 95vh;
