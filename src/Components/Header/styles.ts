@@ -10,6 +10,8 @@ export const HeaderContainer = styled.header `
 
     z-index: 4;
 
+    
+
     img {
         width: 4.7rem;
         padding: 0;
@@ -39,6 +41,7 @@ export const HeaderContainer = styled.header `
             text-decoration: none;
             transition: 0.2s;
             cursor: pointer;
+            color: #eee;
 
             &:hover {
                 text-shadow: 3px 3px 10px rgba(255, 255,255,0.7);
