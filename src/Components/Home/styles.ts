@@ -34,17 +34,7 @@ export const TopHomeStyle = styled.div `
             text-shadow: 2px 2px 5px rgba(255,255,255,0.5);
         }
         
-        img.bg {
-            position: absolute;
-            top: 0;
-            left: 0;
-
-            width: 100%;
-            height: 110%;
-
-            object-fit: cover;
-            z-index: -1;
-        }
+       
 
         a.linkButton {
             padding-top: 9rem;
@@ -67,5 +57,17 @@ export const TopHomeStyle = styled.div `
             }
         }
         
+    }
+
+    img.bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+
+            width: 100%;
+            height: 110vh;
+
+            object-fit: cover;
+            z-index: -1;
     }
 `;

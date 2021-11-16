@@ -10,6 +10,8 @@ export function Home(){
     return(
         <>
             <TopHomeStyle>
+                    <img src={headerImg} alt="Background" className="bg" />
+
                     <div className="left-text">
                         <h1>
                             Olá <br />
@@ -21,12 +23,12 @@ export function Home(){
                         </p>
                         <Button />
 
-                        <img src={headerImg} alt="Background" className="bg" />
 
                         <a href="https://portfolio-vinicius.vercel.app/" className="linkButton">
                             <img src={downImg} alt="Setas Baixo"/>
                         </a>
                     </div>
+                    
             </TopHomeStyle>
             <Biografia/>
             <div>aa</div>

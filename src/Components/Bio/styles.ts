@@ -43,7 +43,6 @@ export const BioStyle = styled.div `
 
         p {
             font-size: 17px;
-
         }
 
         
@@ -62,14 +61,14 @@ export const BioStyle = styled.div `
         
 
         .img-box {
-            width: 115%;
+            width: 90%;
             height: 40%;
         }
 
         .text-left {
             padding: 1rem;
             gap: 1rem;
-            width: 85%;
+            width: 90%;
         }
 
         p {
