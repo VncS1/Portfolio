@@ -4,6 +4,7 @@ import downImg from '../../assets/Setas.png';
 import { TopHomeStyle } from './styles';
 import { Button } from '../Button';
 import { Biografia } from '../Bio';
+import { Cards } from '../Cards';
 
 
 export function Home(){
@@ -31,7 +32,9 @@ export function Home(){
                     
             </TopHomeStyle>
             <Biografia/>
-            <div>aa</div>
+            <Cards />
+
+            {/* <h1>aaaaaaaaa</h1> */}
        </>
        
     );

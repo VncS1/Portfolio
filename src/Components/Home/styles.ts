@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const TopHomeStyle = styled.div `
     width: 100%;
-    height: 100vh;
+    height: 95vh;
     overflow: hidden;
 
     div.left-text {

@@ -5,7 +5,7 @@ export const BioStyle = styled.div `
     background-color: #555;
 
     width: 100%;
-    height: 120vh;
+    height: auto;
 
     display: flex;
     flex-direction: row;
@@ -13,7 +13,7 @@ export const BioStyle = styled.div `
     justify-content: center;
     gap: 3rem;
 
-    padding: 4rem;
+    padding: 8rem 2rem;
 
     overflow: hidden;
 
@@ -22,7 +22,7 @@ export const BioStyle = styled.div `
 
     .img-box {
         width: 35%;
-        height: 80%;
+        height: 85vh;
         background-color: #333;
 
         box-shadow: 0 0 25px rgba(0,0,0,0.4);
@@ -44,6 +44,7 @@ export const BioStyle = styled.div `
 
         p {
             font-size: 17px;
+            padding-bottom: 2rem;
         }
 
         
@@ -55,26 +56,28 @@ export const BioStyle = styled.div `
     }
 
     @media(max-width: 1000px){
-        height: 150vh;
+        height: auto;
 
         flex-direction: column;
         justify-content: left;
+
+        padding: 6rem 2rem 0;
         
 
         .img-box {
             width: 90%;
-            height: 65%;
+            height: 50vh;
         }
 
         .text-left {
-            padding: 1rem;
+            
             width: 90%;
             height: auto;
         }
 
         p {
             font-size: 16px;
-            padding-bottom: 1rem;
+            padding: 1rem 0;
         }
 
         button {

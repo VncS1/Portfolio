@@ -4,9 +4,9 @@ export const ButtonStyle = styled.button`
         width: 20rem;
         height: 3.25rem;
 
-        border: 2px solid #7a4bc8;
+        border: 2px solid #9766e8;
         border-radius: 2rem;
-        background-color: transparent;
+        background-color: #9766e8;
         padding: 0.5rem 3rem;
 
 
@@ -18,6 +18,9 @@ export const ButtonStyle = styled.button`
 
         &:hover {
             background-color: #7a4bc8;
+            border: 2px solid #7a4bc8;
+            width: 20.5rem;
+            height: 3.5rem;
         }
 `;
 
