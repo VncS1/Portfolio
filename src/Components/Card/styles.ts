@@ -49,21 +49,24 @@ export const CardStyle = styled.div `
     
 
     @media(max-width: 768px){
-        width: 70%;
+        width: 80%;
         height: auto;
         padding-bottom: 2rem;
 
         
-
         p {
-            padding: 5rem;
+            padding: 0;
         }
-
+      
         button {
-            width: 75%;
             height: 6rem;
             font-size: 1rem;
+            padding: 0;
         }
         
+    }
+
+    @media (min-width: 769px) and (max-width: 1440px){
+        width: 80%;
     }
 `;

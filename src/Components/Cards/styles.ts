@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-
+import Bg from '../../assets/Header_Bg.jpg';
 
 export const CardsStyle = styled.div`
     position: relative;
@@ -15,9 +15,14 @@ export const CardsStyle = styled.div`
     justify-content: center;
     gap: 10rem;
 
+    background-image: url(${Bg});
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+/* 
     img.background-area {
         width: 100%;
-        height: inherit;
+        
 
         position: fixed;
         top: 0;
@@ -25,12 +30,17 @@ export const CardsStyle = styled.div`
         
         object-fit: cover;
         z-index: -1;
-    }
+    } */
 
     
     @media(max-width: 768px){
         flex-direction: column;
         justify-content: center;
         gap: 3rem;
+    }
+
+    @media(min-width: 769px) and (max-width: 1440px) {
+        gap: 3rem;
+        padding: 4rem;
     }
 `;

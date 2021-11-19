@@ -34,7 +34,7 @@ export function Home(){
             <Biografia/>
             <Cards />
 
-            {/* <h1>aaaaaaaaa</h1> */}
+            <h1>aaaaaaaaa</h1>
        </>
        
     );
