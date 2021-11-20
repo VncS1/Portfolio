@@ -5,7 +5,7 @@ import { TopHomeStyle } from './styles';
 import { Button } from '../Button';
 import { Biografia } from '../Bio';
 import { Cards } from '../Cards';
-
+import { Footer } from '../Footer';
 
 export function Home(){
     return(
@@ -33,8 +33,7 @@ export function Home(){
             </TopHomeStyle>
             <Biografia/>
             <Cards />
-
-            <h1>aaaaaaaaa</h1>
+            <Footer />
        </>
        
     );
