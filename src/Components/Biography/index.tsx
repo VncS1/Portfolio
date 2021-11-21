@@ -1,5 +1,4 @@
-import { BioStyle } from './styles';
-import { Button } from '../Button';
+
 
 export function Biography(){
     return(
