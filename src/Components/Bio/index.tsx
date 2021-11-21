@@ -1,9 +1,11 @@
 import { BioStyle } from './styles';
 import { Button } from '../Button';
 
+import { Link } from 'react-router-dom';
+
 export function Biografia(){
     return(
-        <BioStyle>
+        <BioStyle id="bio">
             <div className="img-box"></div>
             <div className="text-left">
                 <h1>Biografia</h1>
@@ -11,7 +13,7 @@ export function Biografia(){
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh libero, lobortis facilisis enim vitae, aliquet scelerisque libero. Quisque vitae justo sit amet arcu malesuada sollicitudin. Quisque mollis lectus scelerisque imperdiet lobortis. Fusce semper orci leo, quis suscipit tellus aliquam a. Nullam quis luctus risus, quis aliquam urna. Integer sagittis accumsan vehicula. Nunc sit amet rutrum magna, quis lobortis nisl. Curabitur lobortis dolor id nibh auctor ultricies.  
                 </p>
-                <Button />
+                <Link to="/biography"><Button /></Link>
             </div>
         </BioStyle>
     );

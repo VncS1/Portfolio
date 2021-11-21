@@ -2,6 +2,8 @@ import headerImg from '../../assets/bg_tst1.png';
 import downImg from '../../assets/Setas.png';
 
 import { TopHomeStyle } from './styles';
+
+import { Header } from '../Header';
 import { Button } from '../Button';
 import { Biografia } from '../Bio';
 import { Cards } from '../Cards';
@@ -10,6 +12,7 @@ import { Footer } from '../Footer';
 export function Home(){
     return(
         <>
+            <Header />
             <TopHomeStyle>
                     <img src={headerImg} alt="Background" className="bg" />
 
@@ -25,13 +28,13 @@ export function Home(){
                         <Button />
 
 
-                        <a href="https://portfolio-vinicius.vercel.app/" className="linkButton">
+                        <a href="#bio" className="linkButton">
                             <img src={downImg} alt="Setas Baixo"/>
                         </a>
                     </div>
                     
             </TopHomeStyle>
-            <Biografia/>
+            <Biografia />
             <Cards />
             <Footer />
        </>

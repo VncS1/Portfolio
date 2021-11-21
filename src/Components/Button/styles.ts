@@ -22,5 +22,10 @@ export const ButtonStyle = styled.button`
             width: 20.5rem;
             height: 3.5rem;
         }
+
+        a{
+            color: #fff;
+            text-decoration: none;
+        }
 `;
 

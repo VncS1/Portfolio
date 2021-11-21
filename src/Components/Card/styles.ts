@@ -37,11 +37,17 @@ export const CardStyle = styled.div `
             text-align: left;
         }
 
-        button {
-          font-size: 1.1rem;
+        .link {
+          margin: 0 auto !important;
           width: 80%;
-          height: 3.3rem;
-          margin: 0 auto;
+          
+          
+
+          button {
+            font-size: 1.2rem;
+            height: 3.3rem;
+            
+          }
             
         }
     }
@@ -56,12 +62,18 @@ export const CardStyle = styled.div `
         
         p {
             padding: 0;
+            width: 90%;
+        }
+
+        h1 {
+            font-size: 1.7rem;
         }
       
-        button {
-            height: 6rem;
-            font-size: 1rem;
-            padding: 0;
+        .link {
+            button {
+                width: 17rem;
+                font-size: 2rem;
+            }
         }
         
     }
