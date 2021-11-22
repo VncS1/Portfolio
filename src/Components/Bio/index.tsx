@@ -11,7 +11,10 @@ export function Biografia(){
                 <h1>Biografia</h1>
                 <h2>Algumas informações sobre a minha vida.</h2>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh libero, lobortis facilisis enim vitae, aliquet scelerisque libero. Quisque vitae justo sit amet arcu malesuada sollicitudin. Quisque mollis lectus scelerisque imperdiet lobortis. Fusce semper orci leo, quis suscipit tellus aliquam a. Nullam quis luctus risus, quis aliquam urna. Integer sagittis accumsan vehicula. Nunc sit amet rutrum magna, quis lobortis nisl. Curabitur lobortis dolor id nibh auctor ultricies.  
+                        Bom, me chamo Vinicius Machioni, tenho 19 anos, nascido e criado em Poços de Caldas.<br/> Desde o primeiro ano do ensino
+                        fundamental até o 9º ano estudei no Colégio Municipal Dr. José Vargas de Souza, e por descobrir por um amigo sobre o
+                        IFSULDEMINAS, fui arriscar fazer a prova mesmo sem ter estudado. <br/>Por sorte eu consegui passar no Curso Técnico em Informática
+                        Integrado ao Ensino Médio e estudei todo o meu ensino médio lá no IF...
                 </p>
                 <Link to="/biography"><Button /></Link>
             </div>

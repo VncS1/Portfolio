@@ -9,8 +9,9 @@ export function Opinions(){
         <>
             <Header />
             <OpinionsStyle>
-                <TextBox title="Semana 11/10 até 11/12" text=""/>
-                <TextBox title="Semana 11/10 até 11/12" text=""/>
+                <TextBox title="Opiniões e atualizações.">
+                    <p>Em andamento...</p>
+                </TextBox>
             </OpinionsStyle>
             <Footer />
         </>
