@@ -261,7 +261,33 @@ export function Events(){
                         E na disciplina de AED I o professor João ensinou a como utilizar matrizes na linguagem C, fazendo um código que fala qual a menor temperatura em um determinado dia da semana.
                     </p>
                 </TextBox>
+
                 <TextBox title="Semana 13 - 08/11 - 13/11"> 
+                    <p>
+                        Nesta semana, o professor Márcio continuou dando a matéria sobre derivadas, falando sobre as propriedades, cálculos usando limites e as propriedades/regras de derivação, e aplicação dessas regras.<br/> <br/>
+
+                        Já na disciplina de LPHS, fizemos uma experiência no Packet Tracer para aprender sobre as entradas analógicas do MCU, na qual fizemos um programa que abria/fechava a janela de acordo com a potência do som.<br/> <br/>
+
+                        Em AED I fizemos o jogo do Kahoot, que é uma preparação para a prova que seria sexta-feira(12/11), na qual consegui ir muito bem e tirar nota máxima. Essa prova foi um pouco diferente da última, pois havia uma questão na qual precisávamos criar um programa de acordo com as instruções do professor João.<br/> <br/>
+
+                        Em ICC o professor João liberou a aula pois iria ter uma palestra sobre Transformação Digital na Prática da Microsoft, então nesta semana não tivemos aula de ICC.<br/> <br/>
+
+                        E em LAB AED I o professor Fabiano passou um trabalho no qual a gente teria que pegar uma string do usuário e o mesmo teria como criptografar/descriptografar essa string.
+                    </p>
+                </TextBox>
+                <TextBox title="Semana 14 - 15/11 - 20/11"> 
+                    <p>
+                        Nessa semana só tivemos uma aula de Cálculo e não tivemos aula de Mentoring, pois na segunda-feira foi feriado de dia da Proclamação da República. Porém na terça-feira o professor Márcio continuou falando sobre derivadas, dessa vez focando em Regras de derivação de funções trigonométricas e regras da cadeia. E também foi nessa semana que fizemos a entrega de um trabalho de cálculo sobre Limites e Continuidade.<br/> <br/>
+
+                        Em ICC o professor João sobre Inteligência Artificial e Processamento da Linguagem Natural, para introduzir para a gente o trabalho que iremos fazer de ChatBots.<br/> <br/>
+
+                        Já em AED I, o professor João falou principalmente sobre Estrutura de Dados Registro (Struct) e também fez alguns exemplos para mostrar como funcionaria isso no código.<br/> <br/>
+
+                        E em LPHS o professor Claudio Faria passou alguns itens para a gente e pediu para a gente fazer um trabalho no packet tracer de acordo com as instruções passadas.
+                    </p>
+                </TextBox>
+
+                <TextBox title="Semana 15 - 22/11 - 27/11"> 
                     <p>
                         Texto em andamento...
                     </p>
