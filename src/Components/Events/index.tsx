@@ -7,6 +7,7 @@ import { EventsStyle } from './styles';
 export function Events(){
     return(
         <>
+            <div id="topo" />
             <Header />
             <EventsStyle>
                 <TextBox title="Semana 1 - 16/08 - 21/08"> 
