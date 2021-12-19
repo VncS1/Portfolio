@@ -289,10 +289,67 @@ export function Events(){
 
                 <TextBox title="Semana 15 - 22/11 - 27/11"> 
                     <p>
-                        Texto em andamento...
+                        Já nesta semana, em AED I o professor João Benedito explicou sobre o conteúdo de ponteiros e sobre endereços de memória, e também sobre parâmetros por valor. <br/><br/>
+
+                        Em Cálculo I, o professor Márcio continuou sobre Derviadas, falando dessa vez sobre Regras de derivação, regra da cadeia, Regra de L'Hôpital, derivação implícita, etc...<br/><br/>
+
+                        E em ICC, tivemos aula sobre Inteligência Artificial e Processamento de Linguagem Neural, na qual o professor João continuou falando sobre os chatbots e nos mostrou algumas outras técnicas mais avançadas que poderíamos usar nesse trabalho. <br/><br/>
+
+                        Em LPHS, o professor Cláudio Faria passou uma situação, com alguns componentes do packet tracer que deveríamos usar e criar um projeto em volta disso.<br/><br/>
+                    </p>
+                </TextBox>
+
+                <TextBox title="Semana 16 - 29/11 - 04/12"> 
+                    <p>
+                        Em Cálculo, nós continuamos vendo sobre derivadas, dessa vez vendo sobre Taxa média e instantânea de variação, vimos alguns exercícios aplicados, e sobre máximos,mínimos e ponto de inflexão.<br/><br/>
+
+                        Em LPHS o professor Cláudio passou o trabalho final, no qual teríamos 2 semanas para entregar, em que a gente teria que criar um sistema de uma casa inteligente.<br/><br/>
+
+                        Em ICC o professor João falou sobre a Deep Web, Dark Web, sobre as camadas da web, e nos mostrou como acessar a Deep Web.<br/><br/>
+
+                        E em Mentoring I tivemos uma conversa com um Egresso empreendedor.<br/><br/>
+
+                        E em AED I vimos sobre a manipulação de ponteiros na memória principal e sobre a modularização usando funções.<br/><br/>
                     </p>
                 </TextBox>
                 
+                <TextBox title="Semana 17 - 6/12 - 11/12"> 
+                    <p>
+                        Nessa semana tivemos algumas resoluções de exercicios e o professor Márcio também falou sobre Taxas relacionadas na disciplina de Cálculo.<br/><br/>
+
+                        Em LPHS o professor Cláudio deixou a aula para a turma continuar a fazer o trabalho final, e caso necessário, tirar alguma dúvida.<br/><br/>
+
+                        Em ICC nós tivemos a ultima prova, na qual consegui ir muito bem, e também apresentamos o trabalho dos chatbots.<br/> <br/>
+
+                        E em AED I tivemos o Kahoot, que é uma preparação para a última prova, no qual valia 4 pontos para o primeiro colocado. <br/><br/>
+
+
+                    </p>
+                </TextBox>
+
+                <TextBox title="Semana 15 - 13/12 - 18/12"> 
+                    <p>
+                        Essa semana foi bem tranquila, com a ultima prova de Cálculo e a entrega do último trabalho, e também a prova final da disciplina de AED I e a entrega do último trabalho de AED.<br/><br/>
+
+                        Em Mentoring I, o professor Boca passou mais 2 trabalhos, no qual a gente deveria fazer dois currículos. Um no lattes e outro no PUC carreiras.<br/><br/>
+
+                        Em LPHS fizemos a entrega do trabalho final.
+                    </p>
+                </TextBox>
+
+                <TextBox title="Semana 15 - 13/12 - 18/12"> 
+                    <p>
+                        Nesta semana quase não teremos nada. <br/><br/>
+                        
+                        Nós iremos apresentar e entregar o trabalho final de LAB AED I, no qual vale 40 pontos, e também faremos a entrega final do Portfólio e dos dois currículos que o Professor Boca passou na disciplina de Mentoring I.<br/><br/>
+                    </p>
+                </TextBox>
+                
+                <TextBox title="Fim do 1º Período :D"> 
+                    <p>
+                        Muito obrigado por ler até aqui, espero que tenha gostado desse projeto que fiz durante o primeiro semestre :D.<br/> <br/>
+                    </p>
+                </TextBox>            
             </EventsStyle>
             <Footer />
         </>
